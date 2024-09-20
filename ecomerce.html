@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Loja Online</title>
+    <link rel="stylesheet" href="navegacao.css">
+    <link rel="stylesheet" href="html/CEP.html">
+    <link rel="stylesheet" href="html/Clima.html">
+    <link rel="stylesheet" href="CPF.html">
+    <link rel="stylesheet" href="html/Dolar.html">
+    <link rel="stylesheet" href="ecomerce.html">
+    <link rel="stylesheet" href="html/index.html">
+    <link rel="stylesheet" href="tema.html">
+    <link rel="stylesheet" href="e-comerce.css">
+    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+</head>
+<body>
+    <header>
+        <nav class="navbar">
+            <a class="logo">PETFLIX</a>
+            <a class="espaco1" href="index.html">HOME</a>
+            <a class = 'espaco2' href="CEP.html">CEP</a>
+            <a class = 'espaco2' href="CPF.html">CPF</a>
+            <a class = 'espaco2' href="Clima.html">Clima</a>
+            <a class = 'espaco2' href="Dolar.html">Dolar</a>
+            <a class = 'espaco2' href="ecomerce.html">E-comerce</a>
+            <a class = 'espaco2' href="tema.html">Jogos</a>
+        </nav>
+    </header>
+
+    <main style="display: flex;justify-content: space-around;flex-wrap: wrap;">
+        <h1>Loja Online</h1>
+            <div class = "caixa">
+                <div id="nome"></div>
+                <div id="preco"></div>
+                <div id="sinopse"></div>
+                <div id="imagem"></div> 
+                <input type="button" value="Comprar" onclick="apertar()" class="botao">
+            </div>
+            <div class = "caixa2">
+                <div id="nome2"></div>
+                <div id="preco2"></div>
+                <div id="sinopse2"></div>
+                <div id="imagem2"></div>
+                <input type="button" value="Comprar" onclick="apertar()" class="botao">
+            </div>
+            <div class = "caixa3">
+                <div id="nome3"></div>
+                <div id="preco3"></div>
+                <div id="sinopse3"></div>
+                <div id="imagem3"></div>
+            
+                <input type="button" value="Comprar" onclick="apertar()" class="botao">
+                
+            </div>
+            
+    </main>
+
+    <footer style="position: fixed; bottom: 0;">
+        <center>
+            <p>Todos direitos reservados a Ewerton Henrique Marques da Silva</p>
+        </center>
+
+    </footer>
+    <script src="e-comerce.js"></script>
+</body>
+</html>

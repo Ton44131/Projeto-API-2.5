@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Consulta de CPF</title>
+    <link rel="stylesheet" href="navegacao.css">
+    <link rel="stylesheet" href="html/CEP.html">
+    <link rel="stylesheet" href="html/Clima.html">
+    <link rel="stylesheet" href="CPF.html">
+    <link rel="stylesheet" href="html/Dolar.html">
+    <link rel="stylesheet" href="ecomerce.html">
+    <link rel="stylesheet" href="html/index.html">
+    <link rel="stylesheet" href="cpf.css">
+</head>
+<body>
+    <header>
+        <nav class="navbar">
+            <a class="logo">PETFLIX</a>
+            <a class="espaco1" href="index.html">HOME</a>
+            <a class = 'espaco2' href="CEP.html">CEP</a>
+            <a class = 'espaco2' href="CPF.html">CPF</a>
+            <a class = 'espaco2' href="Clima.html">Clima</a>
+            <a class = 'espaco2' href="Dolar.html">Dolar</a>
+            <a class = 'espaco2' href="ecomerce.html">E-comerce</a>
+            <a class = 'espaco2' href="tema.html">Jogos</a>
+        </nav>
+
+    </header>
+
+    <main style="display: flex;     display: flex;
+    justify-content: center;
+    flex-wrap: wrap;">
+        <div class="caixa">
+            <h1>Consulta de CPF</h1>
+            <div id="imagem"></div>
+            <div id="nome"></div>
+            <div id="sobrenome"></div>
+            <div id="cidade"></div>
+            <div id="pais"></div>
+            <div id="link"></div>
+        
+            <input type="number" id="valor" placeholder="Digite seu CPF">
+            <br>
+            <div id="erro"></div>
+            <button onclick="buscar()">Buscar</button>
+        </div>
+       
+
+    </main>
+
+    <footer style="position: fixed; bottom: 0;">
+        <center>
+            <p>Todos direitos reservados a Ewerton Henrique Marques da Silva</p>
+        </center>
+
+    </footer>
+    <script src="CPF.js"></script>
+</body>
+</html>
