@@ -3,7 +3,7 @@ https://ton44131.github.io/Projeto-API-2.5/
 
 CPF disponível:
  "cpf": 12345678900,
-  "nome": "Bruno",
+  "nome": "Oswaldo",
 
   "cpf": 98765432100,
   "nome": "cardoso",
