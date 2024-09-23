@@ -5,8 +5,6 @@ CPF disponível:
  "cpf": 12345678900,
   "nome": "Oswaldo",
 
-  "cpf": 98765432100,
-  "nome": "cardoso",
 
 "nome": "Carlos",
 "cpf": 65412398700,
@@ -22,6 +20,10 @@ CPF disponível:
 
   "cpf": 78965412300,
   "nome": "Rafael",
+
+   "cpf": 98765432100,
+  "nome": "cardoso",
+
 
  "cpf": 98732165400,
   "nome": "Mariana",
