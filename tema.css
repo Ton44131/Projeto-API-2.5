@@ -10,3 +10,10 @@
     
  
  }
+ button {
+    border-radius: 5px;
+    color: white;
+    background-color: black;
+    height: 60px;
+    width: 100px;
+ }
